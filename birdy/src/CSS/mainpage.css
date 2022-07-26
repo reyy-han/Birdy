@@ -1,0 +1,22 @@
+.birdy{
+    display:flex;
+    margin:16px;
+    justify-content: center;
+    color: rgb(175, 14, 55);
+    text-shadow: 2px red;
+    font-size: 4em;
+    font-family:'ITC Bookman Demi';
+}
+.birdy:hover{
+    font-size: 10 em;
+    letter-spacing: 2em;
+    transform: matrix(12px);
+    color:hsla(180, 100%, 25%, 0.877);
+}
+.letter_birdy{
+    margin:0;
+}
+.letter_birdy:hover{
+    transform: translateY(-5%);
+    text-shadow: 0.1em 0.1em  rgba(102, 0, 0, 0.637);
+}

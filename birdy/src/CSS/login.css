@@ -1,0 +1,33 @@
+.LoginForm{
+    resize: none;
+    border: #124670 solid 0.5px;
+    margin: 5px 600px 0 600px;
+    background: linear-gradient(mistyRose, aliceBlue, skyBlue); 
+}
+.cases{
+    text-align:left;
+    margin-left: 180px;
+}
+h2{
+    color: black;
+    text-shadow: black;
+    margin: 5px 0 5px 0
+}
+.log{
+    margin: 5px 50px 0 50px;
+}
+.login{
+    padding: 5px;
+    border: none;
+    font-weight: bold;
+    color: #EBEBEB;
+    background-color:rgb(18, 70, 112);
+    margin: 0 5px 10px 5px;
+    border-radius:  0%;
+}
+.input_log{
+    padding-right: 100px;
+}
+.labellogin{ 
+    padding: 10px 10px 10px 0;
+}

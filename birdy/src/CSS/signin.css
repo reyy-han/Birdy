@@ -1,0 +1,33 @@
+.Enregistrement{
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(135deg, aliceBlue, skyBlue, slateblue); 
+}
+.i{
+    text-align:center;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.input_sign{
+    padding-right: 0px;
+    color:darkblue
+}
+.label_nom{
+    margin-left: 10px;
+}
+.labels{
+    
+    padding: 10px 10px 10px 0;
+}
+.align{
+    display: inline;
+}
+.enregistrement_button{
+    padding: 5px;
+    border: none;
+    font-weight: bold;
+    color: #EBEBEB;
+    background-color:rgb(18, 70, 112);
+    margin: 0 5px 10px 5px;
+    border-radius:  0%;
+}

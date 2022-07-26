@@ -1,0 +1,351 @@
+.logo_perroquet{
+    display: flex;
+    height: 150px;
+    width: 170px;
+}
+.suppr, .modif{
+    height: 20px;
+    width: 20px;
+    margin: 0px;
+}
+
+.loupe{
+    height: 50px;
+    width: 50px;
+    margin: 0px;
+}
+.h{
+    display: flex;
+    width: 100%;
+    background-color: #bbdad8;
+}
+.h:focus-within{
+    background-color: rgb(18 109 112 / 55%);
+
+}
+.logo{
+    margin-left:12px;
+    width: 10%;
+}
+.logo_perroquet:hover{
+    filter:contrast(140%) ;
+}
+.search_login{
+    float: left;
+    display: center;
+    align-content:space-around;
+    width: 80%;
+    font-weight: bold;
+}
+.search{
+    display: inline-flex;
+    margin: 25px 0 0 25px;
+}
+.search_input{
+    width: 700px;
+    height: 100px;
+    padding: 20px 0 20px 0;
+    border-radius: 50px 0 0 50px;
+    background-color: #ffffff85;
+}
+.search_input::placeholder{
+    display:inline-flex;
+    text-align: left;
+    font-size: 20px;
+    color: rgba(29, 75, 56, 0.459);
+    padding-left: 50px;
+}
+.search_button{
+    width: 100px;
+    height: 100px;
+    border-radius: 0 50px 50px 0;
+    background-color: #ffffff85;
+}
+.search_button:hover, .search_input:hover{
+    background-color: #ffffff4d;
+}
+.lien{
+float: right;
+   width: 10%;
+}
+.deux_boutons{
+    display: inline;
+}
+.content{
+    display: flex;
+}
+
+.statistiques{
+    width: 250px;
+    height: 680px;
+    background-color: rgb(228 246 247);
+}
+.stats_div{
+    height: 29%;
+    font-family:Georgia;
+}
+.stats_title{
+    font-size: 15px;
+    border-top: dotted rgb(145 187 189 / 99%) 0.5px;
+    border-bottom: dotted rgb(145 187 189 / 99%) 0.5px;
+    margin-bottom: 0;
+}
+.stats_title:hover{
+    background: linear-gradient(155deg, #e4f6f75e, aliceBlue, rgb(145 187 189 / 99%));
+}
+.stats_info, .stats_info_famous{
+    display: flex;
+    font-weight:500;
+}
+.stats_info_famous:hover{
+    font-size: x-large;
+    color: rgb(217 94 53);
+    text-shadow: 0.1em 0.1em rgb(18 109 112);
+}
+.enveloppe{
+    padding: 0 20px 20px 20px;
+}
+.messages-content{
+    width: 100%;
+    height: 680px;
+}
+.ecrire_message {
+    width: auto;
+    padding: 10px;
+    margin: 15px 10px 15px 10px;
+    height: 120px;
+    border:lightseagreen solid 0.5px;
+}
+.text_msg{
+    width: 95%;
+    height: 80px;
+    margin-right: 0px;
+    border-style: hidden;
+    background: rgb(229 241 244 / 29%);
+}
+.text_msg:hover{
+    background: rgb(225 238 242/ 0.50);
+
+}
+.nmsg{
+    display: flex;
+}
+.Button_post{
+    float: right;
+    padding: auto;
+    width: auto;
+    height: 80px;
+    border: none;
+    font-weight: bold;
+    color: #EBEBEB;
+    background-color:rgb(18, 109, 112);
+    margin: 0 5px 0 5px;
+}
+.formchange{
+    display: flex;
+}
+.put_nmsg{
+    color: #EBEBEB;
+    background-color:rgb(18, 109, 112);
+    border: none;
+
+}
+.put_nmsg:hover, .Button_post:hover{
+    background-color:rgb(15, 88, 90);
+
+}
+
+.listes_messages{
+    border-radius: 10px 10px 0 0;
+    width: auto;
+    margin: 10px;
+    height: 500px;
+    background: linear-gradient(155deg, #e4f6f75e, aliceBlue, rgb(145 187 189 / 99%));
+}
+.limessage, .limessage2{
+    background: rgb(18 109 112 / 55%);
+    border-radius: 10px 10px 0 0 ;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-family:Georgia;
+}
+.limessage2{
+    margin-top: 10px;
+}
+.remind{
+    color: linen;
+}
+li{
+    list-style-type: none;
+}
+.friends{
+    width: 250px;
+    height: 680px;
+    background: linear-gradient(215deg,#ffffff00, aliceBlue,  rgb(18 109 112 / 48%));
+}
+.listfriends{
+    height: 615px;
+}
+.friend{
+    border-bottom: #7aaeaf solid 0.1px
+}
+.petit{
+    font-size: x-small;
+}
+.myself{
+    margin: 5px 70px 5px 70px;
+    border-radius: 50px;
+    border:hidden;
+    background-color:rgb(124 175 176);
+    border-radius: 50px;
+    transform: translateY(-0px);
+    box-shadow: 0em 0.5em rgb(198 222 226);
+}
+address{
+    margin-top: 5px;
+    height: 4%;
+    text-align: center;
+}
+.Information, .Information_top{
+    padding: 5px;
+    display: inline;
+    text-align: center;
+    margin: 10px;
+}
+.message_user{
+    height: 45%;
+    margin: 15px 15px 18px 15px;
+    background-color: rgb(202 235 236 / 12%);
+    border-radius: 10px;
+}
+.message_friend{
+    
+    height: 460px;
+    height: 45%;
+    margin: 15px;
+    background-color: #90bbbc;
+    background: linear-gradient(156deg, #ffffff,#d9eaef, rgb(145 187 189));
+    border-radius: 10px;
+}
+.Button_page{
+    padding: 5px;
+    width: 110px;
+    border: none;
+    font-weight: bold;
+    color: #EBEBEB;
+    background-color:rgb(112, 18, 49);
+    margin: 0 5px 0 5px;
+    border-radius: 50px;
+    transform: translateY(-6px);
+    box-shadow: 0em 0.5em rgb(18 109 112 / 48%);
+}
+.Button_page:active{
+    filter: brightness(120%);
+    transform: translateY(-2px);
+    box-shadow: 0em 0.1em rgb(18 109 112);
+}
+.Button_logout{
+    margin: 10px;
+    padding: 5px;
+    width: 110px;
+    border: none;
+    font-weight: bold;
+    color: #EBEBEB;
+    background-color:rgb(112, 18, 49);
+    margin: 0 5px 0 5px;
+
+}
+.sender{
+    text-align: left;
+    font: status-bar;
+    margin-bottom: 0;
+    margin-left: 20px;
+
+}
+.textbox{
+    padding: 7px 15px;
+    margin-top: 0;
+    margin-left: 15px;
+    justify-content: left;
+    display: block;
+    width: fit-content;
+    height: min-content;
+    border: solid black 0.1px;
+    background: rgb(255, 255, 255);
+    border-radius: 3px;
+    white-space: nowrap;
+    
+}
+.listmessages{
+    overflow-y: scroll;
+    height: 460px;
+    width: 100%;
+}
+.listmessagesprofil{
+    overflow-y: scroll;
+    width: 100%;
+    height: 90%;
+}
+.message{
+    padding-bottom: 1px;
+    background: linear-gradient(
+        156deg
+        , #ffffff78,#d9eaef, rgb(145 187 189 / 99%));
+    margin: 10px 0 10px 0;
+}
+.delete{
+    float: right;
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    font-weight:lighter;
+    color: #EBEBEB;
+    background-color: rgb(228 246 247 / 0%);
+}
+.delete:hover{
+    background-color:rgb(228 246 247 / 50%);
+}
+.deletecompte, .button_of_friendship{
+    margin: 10px;
+    border-radius: 50px;
+    border:hidden;
+    background-color:rgb(124 175 176);
+    border-radius: 50px;
+    transform: translateY(-0px);
+    box-shadow: 0em 0.5em rgb(198 222 226);
+}
+.deletecompte:active, .button_of_friendship:active, .myself:active{
+    filter: brightness(110%);
+    transform: translateY(2px);
+    box-shadow: 0em 0.1em rgb(198 222 226);
+}
+
+.deletecompte:hover, .button_of_friendship:hover, .Button_page:hover, .myself:hover{
+    filter: brightness(110%);
+}
+.modif_msg{
+    margin-top: 5px;
+    padding: 5px;
+    border: none;
+    font-weight:lighter;
+    color: #080808;
+    background-color: #76acb000;
+}
+.modif_msg:hover{
+    background-color: #76acb05e;
+
+}
+.button_login{
+    
+    margin-top: 5px;
+    padding: 5px;
+    border: none;
+    font-weight:lighter;
+    font-weight:bold;
+    color: #080808;
+    background-color: #f3f9fb00;;
+}
+.button_login:hover{    
+    color: rgb(175 14 55);
+    text-decoration: rgb(175 14 55) underline;
+}
