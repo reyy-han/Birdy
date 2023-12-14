@@ -1,12 +1,11 @@
 .LoginForm{
     resize: none;
+    display: inline-block;
     border: #124670 solid 0.5px;
-    margin: 5px 600px 0 600px;
     background: linear-gradient(mistyRose, aliceBlue, skyBlue); 
 }
 .cases{
     text-align:left;
-    margin-left: 180px;
 }
 h2{
     color: black;

@@ -28,38 +28,40 @@ class NavigationPanel extends React.Component {
     } = this.props;
     if(currentPage !== "signup"){
       return <nav className="navPanel">
-        {(isConnected !== false )
-          ?( (currentPage === 'page principale')
-            ?<PagePrincipale 
-              logout = {logout}
-              getPageProfil={() => {getPageProfil(username,username)}}
-              user_id = {user_id}
-              getPageProfilLink = {getPageProfilLink}
-            />
-            :<PageProfil 
-              getPagePrincipale={getPagePrincipale}
-              logout = {logout}
-              username = {username}
-              user_id = {user_id}
-              getPageProfilLink = {getPageProfilLink}
-              userprofil = {userprofil}
-              idprofil = {idprofil}
-              reset = {reset}
-            /> )
-          : <Login 
-              login={login} 
-              username={username} 
-              password={password} 
-              handleLogin = {handleLogin}
-              handlePassword = {handlePassword}
-              setUser_id = {setUser_id}
-            />
-        }
+        <div>
+          {(isConnected !== false )
+            ?( (currentPage === 'page principale')
+              ?<PagePrincipale 
+                logout = {logout}
+                getPageProfil={() => {getPageProfil(username,username)}}
+                user_id = {user_id}
+                getPageProfilLink = {getPageProfilLink}
+              />
+              :<PageProfil 
+                getPagePrincipale={getPagePrincipale}
+                logout = {logout}
+                username = {username}
+                user_id = {user_id}
+                getPageProfilLink = {getPageProfilLink}
+                userprofil = {userprofil}
+                idprofil = {idprofil}
+                reset = {reset}
+              /> )
+            : <Login 
+                login={login} 
+                username={username} 
+                password={password} 
+                handleLogin = {handleLogin}
+                handlePassword = {handlePassword}
+                setUser_id = {setUser_id}
+              />
+          }
 
-        {!isConnected && <p><b>Inscription </b>
-          Pas encore de compte ?
-          <button className="sign" onClick={() => { signup(); }}>S'inscrire</button>
-        </p>}
+          {!isConnected && <div><p><b>Inscription </b>
+            Pas encore de compte ?
+            <button className="sign" onClick={() => { signup(); }}>S'inscrire</button>
+          </p></div>}
+        </div>
       </nav>
     }else{
       return <nav id="navPanel">

@@ -1,3 +1,7 @@
+.MainPage{
+    display: flex;
+    flex-direction: column;
+}
 .birdy{
     display:flex;
     margin:16px;
